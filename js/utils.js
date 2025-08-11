@@ -607,11 +607,11 @@ const anzhiyu = {
       if (hour >= 0 && hour <= 5) {
         message = "睡个好觉，保证精力充沛";
       } else if (hour > 5 && hour <= 10) {
-        message = "一日之计在于晨";
+        message = "早上好，玛卡巴卡";
       } else if (hour > 10 && hour <= 14) {
         message = "吃饱了才有力气干活";
       } else if (hour > 14 && hour <= 18) {
-        message = "集中精力，攻克难关";
+        message = "是下午啊，有点困";
       } else if (hour > 18 && hour <= 24) {
         message = "不要太劳累了，早睡更健康";
       }
