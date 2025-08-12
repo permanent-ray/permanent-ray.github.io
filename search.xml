@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>图床搭建(Cloudflare R2)</title>
+      <link href="/lief/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA-Cloudflare-R2/"/>
+      <url>/lief/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA-Cloudflare-R2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>本次搭建需用到域名，Cloudflare R2，PicGo</p><h3 id="插曲"><a href="#插曲" class="headerlink" title="插曲"></a>插曲</h3><p>TIP：创作此次blog用到以下指令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post 图床搭建&quot;(Cloudflare R2)&quot;</span><br></pre></td></tr></table></figure><h2 id="创建存储桶"><a href="#创建存储桶" class="headerlink" title="创建存储桶"></a>创建存储桶</h2><p>进入Cloudflare，左边栏有R2对象存储，进入创建存储桶。<br><img src="https://eedbdc0.webp.li/docs/1754979785873.png"><br>创建后点击设置，设置自定义域，然后连接域；<br>返回概述，点击创建令牌，权限选对象读和写，其他不用管，直接创建api令牌，显示的画面请复制内容，因为只显示一次。</p><h2 id="连接PicGO"><a href="#连接PicGO" class="headerlink" title="连接PicGO"></a>连接PicGO</h2><p>打开PIcGo 下载插件，直接在插件搜索s3，点击安装；打开图床设置会有下载的插件，根据复制内容填写即可<br><img src="https://eedbdc0.webp.li/docs/1754980061584.png"><br>即创建成功！</p><h3 id="TIP"><a href="#TIP" class="headerlink" title="TIP"></a>TIP</h3><p>本次使用的图片均为图床里的图片。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建日志，持续记录</title>
       <link href="/lief/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%9C%9D%E5%9C%A3/"/>
       <url>/lief/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%9C%9D%E5%9C%A3/</url>
