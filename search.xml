@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Springboot学习日志</title>
+      <link href="/lief/Springboot%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
+      <url>/lief/Springboot%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/</url>
+      
+        <content type="html"><![CDATA[<h1 id="SpringBoot入门-SpringBoot-hello-LEE"><a href="#SpringBoot入门-SpringBoot-hello-LEE" class="headerlink" title="SpringBoot入门 - SpringBoot hello LEE"></a>SpringBoot入门 - SpringBoot hello LEE</h1><h3 id="通过-IDE-集成工具创建"><a href="#通过-IDE-集成工具创建" class="headerlink" title="通过 IDE 集成工具创建"></a>通过 IDE 集成工具创建</h3><p>IntelliJ IDEA：<br>File → New → Project<br>选择 “Spring Boot”<br>配置项目信息和依赖项</p><img src="/lief/Springboot%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/1.png" class=""><img src="/lief/Springboot%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/2.png" class=""><p>点击create，完成创建</p><h3 id="修改Sb1Application代码即可"><a href="#修改Sb1Application代码即可" class="headerlink" title="修改Sb1Application代码即可"></a>修改Sb1Application代码即可</h3><img src="/lief/Springboot%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/4.png" class=""><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">package com.example.sb1;</span><br><span class="line"></span><br><span class="line">import org.springframework.boot.SpringApplication;</span><br><span class="line">import org.springframework.boot.autoconfigure.SpringBootApplication;</span><br><span class="line">import org.springframework.http.HttpStatus;</span><br><span class="line">import org.springframework.http.ResponseEntity;</span><br><span class="line">import org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line">import org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line">import org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line">// Spring Boot应用程序的主类，包含启动方法和REST控制器</span><br><span class="line">@SpringBootApplication</span><br><span class="line">@RestController</span><br><span class="line"></span><br><span class="line">public class Sb1Application &#123;</span><br><span class="line"></span><br><span class="line">    // 程序入口点，启动Spring Boot应用</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        SpringApplication.run(Sb1Application.class, args);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    // 处理GET请求的/hello端点，返回问候信息</span><br><span class="line">    @GetMapping(&quot;/hello&quot;)</span><br><span class="line">    public ResponseEntity&lt;String&gt; hello() &#123;</span><br><span class="line">        // 返回包含&quot;hello LEE&quot;消息和HTTP 200状态的响应</span><br><span class="line">        return new ResponseEntity&lt;&gt;(&quot;hello LEE&quot;, HttpStatus.OK);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="运行后地址栏输入http-localhost-8080-hello"><a href="#运行后地址栏输入http-localhost-8080-hello" class="headerlink" title="运行后地址栏输入http://localhost:8080/hello"></a>运行后地址栏输入<a href="http://localhost:8080/hello">http://localhost:8080/hello</a></h2><img src="/lief/Springboot%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/3.png" class="">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>终不似 少年游</title>
       <link href="/lief/%E7%BB%88%E4%B8%8D%E4%BC%BC-%E5%B0%91%E5%B9%B4%E6%B8%B8/"/>
       <url>/lief/%E7%BB%88%E4%B8%8D%E4%BC%BC-%E5%B0%91%E5%B9%B4%E6%B8%B8/</url>
